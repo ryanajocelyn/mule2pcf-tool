@@ -1,0 +1,20 @@
+<beans>
+<bean id="resourceBean1" class="freemarker.resource.ResourceBean1">
+	<property name="name" value="Ram"></property>
+	<property name="address" value="RamNager"></property>
+	<property name="locationDetail" ref="resourceBean4"></property>
+	<property name="empDetail" ref="resourceBean2"></property>
+</bean>
+<bean id="resourceBean2" class="freemarker.resource.ResourceBean2">
+	<property name="empName" value="Ram"></property>
+	<property name="empId" value="12345"></property>
+</bean>
+<bean id="resourceBean3" class="freemarker.resource.ResourceBean3">
+	<property name="prodName" value="Apple"></property>
+	<property name="orderDate" value="10/11/2017"></property>
+</bean>
+<bean id="resourceBean4" class="freemarker.resource.ResourceBean4">
+	<property name="fromLocation" value="Delhi"></property>
+	<property name="toLocation" value="Chennai"></property>
+</bean>
+</beans>

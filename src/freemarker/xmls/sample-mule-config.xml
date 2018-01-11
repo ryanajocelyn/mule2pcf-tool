@@ -1,0 +1,19 @@
+<mule>
+<inf-mule-pattern:jersey-http-service name="">
+	<inf-mule-pattern:inbound-endpoint address="" connector-ref="" />
+	<jersey-resources>
+		<component>
+			<reflection-entry-point-resolver acceptVoidMethods="true"/>
+			<springObject bean="resourceBean1"/>
+		</component>
+		<component>
+			<reflection-entry-point-resolver acceptVoidMethods="true"/>
+			<springObject bean="resourceBean2"/>
+		</component>	
+		<component>
+			<reflection-entry-point-resolver acceptVoidMethods="true"/>
+			<springObject bean="resourceBean3"/>
+		</component>		
+	</jersey-resources>
+</inf-mule-pattern:jersey-http-service>
+</mule>

@@ -1,0 +1,5 @@
+<RoleDefinitions>
+<Role name="ROLE_ESI_APP">
+<Group>CN=App-MiddlewareSVC_DEV,OU=DomainGroups,OU=UsersGroups,DC=accounts,DC=root,DC=corp</Group>
+</Role>
+</RoleDefinitions>
